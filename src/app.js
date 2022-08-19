@@ -1,14 +1,14 @@
 const express = require('express')
-
+const path = require('path')
 const database = require('./infra/database')
 const routes = require('./routes/router')
-
 class App {
   constructor () {
     this.express = express()
 
     this.middlewares()
     this.views()
+    this.asserts()
     this.routes()
   }
 
@@ -27,6 +27,12 @@ class App {
   views () {
     this.express.set('view engine', 'ejs')
     this.express.set('views', './src/app/views')
+  }
+
+  asserts () {
+    this.express.use('/css', express.static(path.resolve(__dirname, './app/views/assets/css')))
+    this.express.use('/img', express.static(path.resolve(__dirname, './app/views/assets/img')))
+    this.express.use('/js', express.static(path.resolve(__dirname, './app/views/assets/js')))
   }
 
   routes () {

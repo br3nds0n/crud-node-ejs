@@ -10,5 +10,6 @@ router.get('/', core.home)
 // rotas do back-end
 router.post('/api/users', UserController.criar)
   .get('/api/users', UserController.obter)
+  .delete('/api/users/:id', UserController.deletar)
 
 module.exports = router
