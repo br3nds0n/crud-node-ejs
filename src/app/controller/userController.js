@@ -49,6 +49,24 @@ class UserController {
       res.send(users)
     }
   }
+
+  async deletar (req, res) {
+    try {
+      const { id } = req.query
+      await userModel.findByIdAndDelete(id)
+
+      res.send({
+        message: 'Usuário deletado com sucesso!'
+      })
+    } catch (error) {
+      res.status(400).json({
+        details: {
+          name: 'bad request',
+          description: error.message
+        }
+      })
+    }
+  }
 }
 
 module.exports = new UserController()
