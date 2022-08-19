@@ -1,12 +1,16 @@
 const express = require('express')
+const path = require('path')
 
 const database = require('./infra/database')
+const routes = require('./routes/router')
 
 class App {
     constructor () {
       this.express = express()
   
       this.middlewares()
+      this.views()
+      this.routes()
     }
   
     static async start () {
@@ -23,6 +27,11 @@ class App {
 
     views () {
       this.express.set("view engine", "ejs")
+      this.express.set('views', './src/app/views');
+    }
+
+    routes () {
+      this.express.use("/", routes)
     }
   }
   
