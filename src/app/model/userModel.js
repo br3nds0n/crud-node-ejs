@@ -14,6 +14,6 @@ const schema = new mongoose.Schema({
   status: String
 })
 
-const User = mongoose.model('user', schema)
+const User = mongoose.model('users', schema)
 
 module.exports = User
