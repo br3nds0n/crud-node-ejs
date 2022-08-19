@@ -2,13 +2,13 @@ const express = require('express')
 
 const database = require('./infra/database')
 const routes = require('./routes/router')
-
 class App {
   constructor () {
     this.express = express()
 
     this.middlewares()
     this.views()
+
     this.routes()
   }
 

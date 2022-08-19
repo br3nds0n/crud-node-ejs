@@ -4,10 +4,9 @@ class UserController {
   async criar (req, res) {
     try {
       const video = req.body
-      const result = await userModel.create(video)
+      await userModel.create(video)
 
-      res.status(201).json(result)
-      // res.redirect('/add-user')
+      res.redirect('/')
     } catch (error) {
       res.status(400).json({
         details: {
@@ -55,9 +54,7 @@ class UserController {
       const { id } = req.query
       await userModel.findByIdAndDelete(id)
 
-      res.send({
-        message: 'Usuário deletado com sucesso!'
-      })
+      res.redirect('/')
     } catch (error) {
       res.status(400).json({
         details: {
