@@ -52,9 +52,11 @@ class UserController {
   async deletar (req, res) {
     try {
       const { id } = req.query
-      await userModel.findByIdAndDelete(id)
+      const user = await userModel.findById(id)
 
-      res.redirect('/')
+      await userModel.deleteOne(user)
+
+      res.status(200).end()
     } catch (error) {
       res.status(400).json({
         details: {
