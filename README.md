@@ -74,9 +74,6 @@ $ npm run start:dev
 
 <br>
 
-#
-
-
 ## 🛠 tecnologias
 
 As seguintes ferramentas/tecnologias foram usadas na construção e teste do projeto. Ao clicar no ícone da tecnologia, você será redirecionado ao site oficial para instalação: <br>
