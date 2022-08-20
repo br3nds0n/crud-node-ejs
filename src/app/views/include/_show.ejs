@@ -6,11 +6,11 @@
     <td><%= users[i].sexo %></td>
     <td><%= users[i].status %></td>
     <td>
-        <a href="/update-user?id=<%= users[i]._id%>" class="btn border-shadow update">
-            <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+        <a href="/update-user?id=<%= users[i]._id%>" class="btn btn-primary update">
+            Atualizar
         </a>
-        <a class="btn border-shadow delete" data-id=<%= users[i]._id%> >
-            <span class="text-gradient"><i class="fas fa-times"></i></span>
+        <a class="btn btn-danger delete" data-id=<%= users[i]._id%> >
+           Deletar
         </a>
     </td>
 </tr>
