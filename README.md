@@ -4,7 +4,7 @@
 
 > <b>Status code:</b>  🚧 andamento 🚧
 
-## ℹ ndex
+## ℹ index
 
 -   [🧠 contexto](#-contexto)
 -   [📥 download](#-download)
@@ -86,21 +86,16 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 
  <br>
 
-[<Back](#Index)
-
-
 ## ✍🏼 autor
 
 <div align=left>
-
--   <table>
-     <p>  Developed by:</p>
+   <table>
       <tr align=center>
         <th><strong> Brendson Victor </strong></th>
       </tr>
        <td>
           <a href="https://github.com/br3nds0n">
-            <img width="168" height="140" src="" > <p align="left">
+            <img width="168" height="140" src="https://user-images.githubusercontent.com/82064724/185726784-e8d151e8-29d6-4475-ba50-ca23f9429650.png" > <p align="left">
     </p></a>
         </td>
       </tr>
@@ -110,8 +105,6 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 <div align=left>
 
 <br>
-
-[<Back](#Index)
 
 ## 📝 license
 
