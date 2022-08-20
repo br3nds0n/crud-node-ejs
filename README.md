@@ -15,7 +15,14 @@
 -   [📝 license](#-license)
 
 ## 🧠 contexto
+> **feature do projeto:** *crud usuário* 👤
 
+Este projeto é um monolito num padrão de arquitetura mvc, onde faço as seguintes implementações:
+
+ * interação de métodos http. (POST, GET, UPDATE e DELETE);
+ * conexão com banco de dados;
+ * telas (listagem, adicionar e atualizar);
+ 
 ## 📥 download
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
