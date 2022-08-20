@@ -31,7 +31,6 @@ class App {
 
   asserts () {
     this.express.use('/css', express.static(path.resolve(__dirname, './app/views/assets/css')))
-    this.express.use('/img', express.static(path.resolve(__dirname, './app/views/assets/img')))
     this.express.use('/js', express.static(path.resolve(__dirname, './app/views/assets/js')))
   }
 
