@@ -4,9 +4,7 @@
 
 > <b>Status code:</b>  🚧 andamento 🚧
 
-## <img height="18" width="18" src="https://user-images.githubusercontent.com/82064724/151113975-e8ff6813-b253-4670-b626-80e842363ab2.png">Index
-
-<!--ts-->
+## ℹ ndex
 
 -   [🧠 contexto](#-contexto)
 -   [📥 download](#-download)
@@ -15,13 +13,8 @@
 -   [🛠 tecnologias](#-tecnologias)
 -   [✍🏼 autor](#-autor)
 -   [📝 license](#-license)
-<!--te-->
-
----
 
 ## 🧠 contexto
-
----
 
 ## 📥 download
 
@@ -78,7 +71,6 @@ $ npm run start:dev
 
 #
 
----
 
 ## 🛠 tecnologias
 
@@ -96,7 +88,6 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 
 [<Back](#Index)
 
----
 
 ## ✍🏼 autor
 
@@ -122,12 +113,10 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 
 [<Back](#Index)
 
----
-
 ## 📝 license
 
 Este repositório está licenciado sob **MIT LICENSE**. Para informações mais detalhadas, leia o arquivo [LICENSE](./LICENSE) contido neste repositório.
 
  <br> 
 	
- [<Back](-brendsons-website)
+[<Back](-brendsons-website)
