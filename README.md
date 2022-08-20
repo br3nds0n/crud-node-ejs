@@ -61,8 +61,6 @@ DATABASE_URI = mongodb://localhost:27017/<name>
 
 ### ▶ starting
 
-> Depois de configurar as variáveis de ambiente em `.env`. Executaremos o seguinte comando para executar o aplicativo:
-
 ```php
 # executando em modo de produção
 $ npm run start
