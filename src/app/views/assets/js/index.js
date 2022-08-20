@@ -3,7 +3,7 @@
 /* eslint-disable camelcase */
 
 $('#add_user').submit(function (event) {
-  alert('Data Inserted Successfully!')
+  alert('Usuário cadastrado com sucesso!')
 })
 
 $('#update_user').submit(function (event) {
@@ -23,7 +23,7 @@ $('#update_user').submit(function (event) {
   }
 
   $.ajax(request).done(function (response) {
-    alert('Data Updated Successfully!')
+    alert('Usuário atualizado com sucesso!')
   })
 })
 
@@ -37,9 +37,9 @@ if (window.location.pathname == '/') {
       method: 'DELETE'
     }
 
-    if (confirm('Do you really want to delete this record?')) {
+    if (confirm('Deseja deletar o usuário?')) {
       $.ajax(request).done(function (response) {
-        alert('Data Deleted Successfully!')
+        alert('Usuário deletado com sucesso!')
         location.reload()
       })
     }

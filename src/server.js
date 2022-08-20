@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const App = require('./App')
+const App = require('./app')
 
 async function server () {
   const app = await App.start()
