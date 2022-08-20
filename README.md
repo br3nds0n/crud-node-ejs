@@ -4,9 +4,7 @@
 
 > <b>Status code:</b>  🚧 andamento 🚧
 
-## <img height="18" width="18" src="https://user-images.githubusercontent.com/82064724/151113975-e8ff6813-b253-4670-b626-80e842363ab2.png">Index
-
-<!--ts-->
+## ℹ index
 
 -   [🧠 contexto](#-contexto)
 -   [📥 download](#-download)
@@ -15,13 +13,8 @@
 -   [🛠 tecnologias](#-tecnologias)
 -   [✍🏼 autor](#-autor)
 -   [📝 license](#-license)
-<!--te-->
-
----
 
 ## 🧠 contexto
-
----
 
 ## 📥 download
 
@@ -78,7 +71,6 @@ $ npm run start:dev
 
 #
 
----
 
 ## 🛠 tecnologias
 
@@ -94,22 +86,16 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 
  <br>
 
-[<Back](#Index)
-
----
-
 ## ✍🏼 autor
 
 <div align=left>
-
--   <table>
-     <p>  Developed by:</p>
+   <table>
       <tr align=center>
         <th><strong> Brendson Victor </strong></th>
       </tr>
        <td>
           <a href="https://github.com/br3nds0n">
-            <img width="168" height="140" src="" > <p align="left">
+            <img width="168" height="140" src="https://user-images.githubusercontent.com/82064724/185726784-e8d151e8-29d6-4475-ba50-ca23f9429650.png" > <p align="left">
     </p></a>
         </td>
       </tr>
@@ -120,14 +106,10 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 
 <br>
 
-[<Back](#Index)
-
----
-
 ## 📝 license
 
 Este repositório está licenciado sob **MIT LICENSE**. Para informações mais detalhadas, leia o arquivo [LICENSE](./LICENSE) contido neste repositório.
 
  <br> 
 	
- [<Back](-brendsons-website)
+[<Back](#-crud-de-usuário-)
