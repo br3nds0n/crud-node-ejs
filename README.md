@@ -31,7 +31,7 @@ Além disso, é bom ter um editor para trabalhar com código como [VSCode](https
 
 ### 💻 setup
 
-```bash
+```php
 # clonar este repositório
 $ git clone <https://github.com/br3nds0n/crud-node-ejs.git>
 
