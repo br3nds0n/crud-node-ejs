@@ -1,3 +1,4 @@
+/* eslint-disable object-shorthand */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
@@ -19,7 +20,7 @@ $('#update_user').submit(function (event) {
   const request = {
     url: `http://localhost:3000/api/users/${data.id}`,
     method: 'PUT',
-    data
+    data: data
   }
 
   $.ajax(request).done(function (response) {

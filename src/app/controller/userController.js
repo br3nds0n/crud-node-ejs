@@ -69,12 +69,10 @@ class UserController {
 
   async atualizar (req, res) {
     try {
-      const { id } = req.query
+      const { id } = req.params
       const payload = req.body
 
-      const user = await userModel.findById(id)
-
-      const result = await userModel.updateOne(user, payload, {
+      const result = await userModel.findByIdAndUpdate(id, payload, {
         new: true
       })
 
