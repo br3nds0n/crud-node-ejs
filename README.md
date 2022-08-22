@@ -62,6 +62,11 @@ DATABASE_URI = mongodb://localhost:27017/<name>
 ### ▶ starting
 
 ```php
+# rode o executável para iniciar a aplicação
+$ ./run
+
+# --- ou ---
+
 # executando em modo de produção
 $ npm run start
 
