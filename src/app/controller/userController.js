@@ -51,10 +51,9 @@ class UserController {
 
   async deletar (req, res) {
     try {
-      const { id } = req.query
-      const user = await userModel.findById(id)
+      const { id } = req.params
 
-      await userModel.deleteOne(user)
+      await userModel.findByIdAndDelete(id)
 
       res.status(200).end()
     } catch (error) {
