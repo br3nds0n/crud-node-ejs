@@ -66,6 +66,28 @@ class UserController {
       })
     }
   }
+
+  async atualizar (req, res) {
+    try {
+      const { id } = req.query
+      const payload = req.body
+
+      const user = await userModel.findById(id)
+
+      const result = await userModel.updateOne(user, payload, {
+        new: true
+      })
+
+      res.status(200).json(result)
+    } catch (error) {
+      res.status(400).json({
+        details: {
+          name: 'bad request',
+          description: error.message
+        }
+      })
+    }
+  }
 }
 
 module.exports = new UserController()

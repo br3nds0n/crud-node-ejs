@@ -6,10 +6,12 @@ const UserController = require('../app/controller/userController')
 // rotas de visualização
 router.get('/', core.home)
   .get('/add-user', core.add_user)
+  .get('/update-user', core.update_user)
 
 // rotas do back-end
 router.post('/api/users', UserController.criar)
   .get('/api/users', UserController.obter)
   .delete('/api/users/:id', UserController.deletar)
+  .put('/api/users/:id', UserController.atualizar)
 
 module.exports = router
