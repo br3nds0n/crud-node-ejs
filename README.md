@@ -104,7 +104,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
   </tr>
     <td align="center">
       <a href="https://github.com/mateusCoder">
-        <img src="https://user-images.githubusercontent.com/82064724/185726784-e8d151e8-29d6-4475-ba50-ca23f9429650.png" width="110px;"/><br>
+        <img src="https://user-images.githubusercontent.com/82064724/185726784-e8d151e8-29d6-4475-ba50-ca23f9429650.png" width="120px;"/><br>
         <sub>
             <a href="https://www.linkedin.com/in/brendson/" target="_blank" rel="noreferrer" rel="noopener">
               <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"/>
