@@ -56,6 +56,10 @@ PORT_SERVER = <port>
 # endereço para se conectar ao MongoDB
 DATABASE_URI = mongodb://localhost:27017/<name>
 
+# --- ou ---
+
+# endereço para se conectar ao MongoDB Atlas
+DATABASE_URI = mongodb+srv:///<user>:<password>@cluster0.3mvvgdc.mongodb.net/?retryWrites=true&w=majority
 ```
 
 #
