@@ -103,7 +103,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
         <th><strong> Brendson Victor </strong></th>
   </tr>
     <td align="center">
-      <a href="https://github.com/mateusCoder">
+      <a href="https://github.com/br3nds0n">
         <img src="https://user-images.githubusercontent.com/82064724/185726784-e8d151e8-29d6-4475-ba50-ca23f9429650.png" width="110px;"/><br>
         <sub>
             <a href="https://www.linkedin.com/in/brendson/" target="_blank" rel="noreferrer" rel="noopener">
@@ -123,4 +123,4 @@ Este repositório está licenciado sob **MIT LICENSE**. Para informações mais 
 
  <br> 
 	
-[<Back](#-crud-de-usuário)
+[[ ↑ voltar ]](#-crud-de-usuário-)
