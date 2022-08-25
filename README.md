@@ -100,7 +100,7 @@ As seguintes ferramentas/tecnologias foram usadas na construção e teste do pro
 <table>
   <tr>
    <tr align=center>
-        <th><strong> Brendson Victor </strong></th>
+        <th><a href="https://github.com/br3nds0n"><strong> Brendson Victor </strong><a></th>
   </tr>
     <td align="center">
       <a href="https://github.com/br3nds0n">
