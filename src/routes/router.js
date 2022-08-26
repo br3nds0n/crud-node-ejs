@@ -5,8 +5,8 @@ const UserController = require('../app/controller/userController')
 
 // rotas de visualização
 router.get('/', core.home)
-  .get('/add-user', core.add_user)
-  .get('/update-user', core.update_user)
+  .get('/add-user', core.adicionar)
+  .get('/update-user', core.atualizar)
 
 // rotas do back-end
 router.post('/api/users', UserController.criar)
