@@ -26,6 +26,8 @@ $('#update_user').submit(function (event) {
   $.ajax(request).done(function (response) {
     alert('Usuário atualizado com sucesso!')
   })
+
+  window.location.href = 'http://localhost:3000/'
 })
 
 if (window.location.pathname == '/') {
