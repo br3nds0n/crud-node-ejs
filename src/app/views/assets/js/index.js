@@ -3,7 +3,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
 
-$('#add_user').submit(function (event) {
+$('#add_user').submit(() => {
   alert('Usuário cadastrado com sucesso!')
 })
 
@@ -13,7 +13,7 @@ $('#update_user').submit(function (event) {
   const unindexed_array = $(this).serializeArray()
   const data = {}
 
-  $.map(unindexed_array, function (n, i) {
+  $.map(unindexed_array, (n, i) => {
     data[n.name] = n.value
   })
 
@@ -23,7 +23,7 @@ $('#update_user').submit(function (event) {
     data: data
   }
 
-  $.ajax(request).done(function (response) {
+  $.ajax(request).done(() => {
     alert('Usuário atualizado com sucesso!')
   })
 
@@ -41,7 +41,7 @@ if (window.location.pathname == '/') {
     }
 
     if (confirm('Deseja deletar o usuário?')) {
-      $.ajax(request).done(function (response) {
+      $.ajax(request).done(() => {
         alert('Usuário deletado com sucesso!')
         location.reload()
       })
